@@ -23,8 +23,9 @@ local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/daw
 ```
 local win = DiscordLib:Window("discord library")
 
-
 local serv = win:Server("Preview", "")
+
+local btns = serv:Channel("Buttons")
 ```
 
 {% hint style="info" %}
@@ -33,10 +34,10 @@ explaination:
 win:Server is basically what you would see if u had multiple server on discord
 {% endhint %}
 
-### You can also do a server with picture:
+#### You can also do a server with picture:
 
 ```
-win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
+local image = win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
 ```
 {% endtab %}
 {% endtabs %}
@@ -57,7 +58,7 @@ local btns = serv:Channel("Buttons")
 {% endtab %}
 {% endtabs %}
 
-## Make a notification&#x20;
+## Make a notification
 
 {% tabs %}
 {% tab title="Lua" %}
@@ -72,4 +73,3 @@ Next page we will make the buttons and stuff
 {% endhint %}
 
 ##
-
