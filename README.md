@@ -1,2 +1,4 @@
 # anomic-ui-test
-aaaaaaaaaaaaaaaa
+some weird ass idea i got idk man
+
+gitbook prob
